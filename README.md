@@ -1,4 +1,29 @@
 # git-MPM
+
+<div align="center">
+  <h3>KELOMPOK:</h3>
+  <table align="center">
+    <tr>
+      <th>Nama</th>
+      <th>NIM</th>
+      <th>Github Profile</th>
+    </tr>
+    <tr>
+      <td>Husain Abidin Widayat</td>
+      <td>21060120130055</td>
+      <td>
+        <a href="https://github.com/immortalmeow"><img src="https://img.shields.io/badge/github-121013?style=for-the-badge&logo=github&logoColor=white"></a>
+      </td>
+    </tr>
+    <tr>
+      <td>Muhammad Indra Septiawan</td>
+      <td>21060120130139</td>
+    <td>
+        <a href="https://github.com/mindraseptiawan"><img src="https://img.shields.io/badge/github-121013?style=for-the-badge&logo=github&logoColor=white"></a>
+      </td>
+    </tr>
+  </table>
+</div>
 Deskripsi Tugas:
 Kerjakan proyek kolaboratif dengan menggunakan Git dan GitHub. Mahasiswa diharapkan untuk membentuk kelompok, membuat repositori Git bersama, dan melakukan kerja kolaboratif untuk menyelesaikan proyek tertentu. Tugas ini bertujuan untuk mem mahasiswa cara bekerja secara tim, menggunakan Git untuk melacak perubahan, menyelesaikan konflik, dan memahami konsep-konsep dasar pengembangan perangkat lunak kolaboratif.
 
