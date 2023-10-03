@@ -7,14 +7,10 @@
       <th>Nama</th>
       <th>NIM</th>
       <th>Github Profile</th>
-      <th>Kegantengan</th>
     </tr>
     <tr>
       <td>Husain Abidin Widayat</td>
       <td>21060120130055</td>
-      <td>
-        <a href="https://github.com/immortalmeow"><img src="https://img.shields.io/badge/github-121013?style=for-the-badge&logo=github&logoColor=white"></a>
-      </td>
       <td>
         <a href="https://github.com/immortalmeow"><img src="https://img.shields.io/badge/github-121013?style=for-the-badge&logo=github&logoColor=white"></a>
       </td>
@@ -24,9 +20,6 @@
       <td>21060120130139</td>
     <td>
         <a href="https://github.com/mindraseptiawan"><img src="https://img.shields.io/badge/github-121013?style=for-the-badge&logo=github&logoColor=white"></a>
-      </td>
-      <td>
-        <a href="https://www.instagram.com/draktul/"><img src="https://avatars.githubusercontent.com/u/118505251?s=400&u=bcc56cb2227cfb7398df8ff8cce005605d620aec&v=4"></a>
       </td>
     </tr>
   </table>
