@@ -22,6 +22,13 @@
         <a href="https://github.com/mindraseptiawan"><img src="https://img.shields.io/badge/github-121013?style=for-the-badge&logo=github&logoColor=white"></a>
       </td>
     </tr>
+		<tr>
+      <td>Ais Amin Rais</td>
+      <td>21060120140166</td>
+    <td>
+        <a href="https://github.com/aarais"><img src="https://img.shields.io/badge/github-121013?style=for-the-badge&logo=github&logoColor=white"></a>
+      </td>
+    </tr>
   </table>
 </div>
 Deskripsi Tugas:
