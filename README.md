@@ -12,7 +12,7 @@
       <td>Husain Abidin Widayat</td>
       <td>21060120130055</td>
       <td>
-        <a href="https://github.com/immortalmeow"><img src="https://img.shields.io/badge/github-121013?style=for-the-badge&logo=github&logoColor=white"></a>
+        <a href="https://github.com/immortalmeow"><img src="https://ibb.co/zZMJnqs" width="130" height="150"></a>
       </td>
     </tr>
     <tr>
