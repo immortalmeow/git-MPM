@@ -19,7 +19,7 @@
       <td>Muhammad Indra Septiawan</td>
       <td>21060120130139</td>
     <td>
-        <a href="https://github.com/mindraseptiawan"><img src="https://avatars.githubusercontent.com/u/118505251?s=400&u=bcc56cb2227cfb7398df8ff8cce005605d620aec&v=4" width="125" height="150"></a>
+        <a href="https://github.com/mindraseptiawan"><img src="https://avatars.githubusercontent.com/u/118505251?s=400&u=bcc56cb2227cfb7398df8ff8cce005605d620aec&v=4" width="130" height="150"></a>
       </td>
     </tr>
 		<tr>
