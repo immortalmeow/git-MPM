@@ -80,6 +80,7 @@ $db['default'] = array(
 	'password' => '',
 	'database' => 'indra',
 	'dbdriver' => 'mysqli',
+
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
