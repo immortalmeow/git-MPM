@@ -12,7 +12,7 @@
       <td>Husain Abidin Widayat</td>
       <td>21060120130055</td>
       <td>
-        <a href="https://github.com/immortalmeow"><img src="https://avatars.githubusercontent.com/u/81684452?v=4" width="130" height="150"></a>
+        <a href="https://github.com/immortalmeow"><img src="https://i.ibb.co/njGCgxr/Whats-App-Image-2023-09-14-at-16-16-37.jpg" width="130" height="150"></a>
       </td>
     </tr>
     <tr>
