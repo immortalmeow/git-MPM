@@ -26,7 +26,7 @@
         <a href="https://github.com/mindraseptiawan"><img src="https://img.shields.io/badge/github-121013?style=for-the-badge&logo=github&logoColor=white"></a>
       </td>
       <td>
-        <a href="https://www.instagram.com/draktul/"><img src="[https://github.com/immortalmeow/git-MPM/tree/main/public](https://github.com/immortalmeow/git-MPM/blob/main/public/Indra.png)"></a>
+        <a href="https://www.instagram.com/draktul/"><img src="https://avatars.githubusercontent.com/u/118505251?s=400&u=bcc56cb2227cfb7398df8ff8cce005605d620aec&v=4"></a>
       </td>
     </tr>
   </table>
