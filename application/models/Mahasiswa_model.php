@@ -12,3 +12,32 @@ class Mahasiswa_model extends CI_Model
     //public $Nohp_139;
     //    public $image = "default.jpg";
     //    public $description;
+
+	public function rules()
+    {
+        return [
+            [
+                'field' => 'nama_indra',
+                'label' => 'nama_indra',
+                'rules' => 'required'
+            ],
+
+            [
+                'field' => 'username_indra',
+                'label' => 'username_indra',
+                'rules' => 'required'
+            ],
+
+            [
+                'field' => 'password_indra',
+                'label' => 'password_indra',
+                'rules' => 'required'
+            ],
+
+            [
+                'field' => 'level_indra',
+                'label' => 'level_indra',
+                'rules' => 'required'
+            ],
+        ];
+    }
