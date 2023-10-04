@@ -51,3 +51,13 @@ class Mahasiswa_model extends CI_Model
     {
         return $this->db->get_where($this->_table, ["id_indra" => $id_indra])->row();
     }
+	public function save()
+    {
+        $post = $this->input->post();
+        $this->nama_indra = $post["nama_indra"];
+        $this->username_indra = $post["username_indra"];
+        $this->password_indra = $post["password_indra"];
+        $this->level_indra = $post["level_indra"];
+        //$this->description = $post["description"];
+        return $this->db->insert($this->_table, $this);
+    }
