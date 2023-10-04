@@ -34,6 +34,7 @@ class User extends CI_Controller
 
     }
 
+
     public function cari()
     {
 
@@ -61,4 +62,14 @@ class User extends CI_Controller
 
         $this->load->view("new_form");
     }
+
+    public function delete($id_indra = null)
+    {
+        if (!isset($id_indra)) show_404();
+
+        if ($this->mahasiswa_model->delete($id_indra)) {
+            redirect(site_url('user/table'));
+        }
+    }
+
 }
