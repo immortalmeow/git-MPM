@@ -61,3 +61,15 @@ class Mahasiswa_model extends CI_Model
         //$this->description = $post["description"];
         return $this->db->insert($this->_table, $this);
     }
+
+	public function update()
+    {
+        $post = $this->input->post();
+        $this->id_indra = $post["id_indra"];
+        $this->nama_indra = $post["nama_indra"];
+        $this->username_indra = $post["username_indra"];
+        $this->password_indra = $post["password_indra"];
+        $this->level_indra = $post["level_indra"];
+        // $this->description = $post["description"];
+        return $this->db->update($this->_table, $this, array('id_indra' => $post['id_indra']));
+    }
