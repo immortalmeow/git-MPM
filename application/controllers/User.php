@@ -52,4 +52,43 @@ class User extends CI_Controller
 
         $this->load->view("edit_form", $data);
     }
+
+
+    public function cari()
+    {
+
+        $data['keyword'] = $this->input->get('keyword');
+        $this->load->model('mahasiswa_model');
+
+        $data['search_result'] = $this->mahasiswa_model->caridata($data['keyword']);
+
+        $this->load->view('cari_form.php', $data);
+    }
+
+    public function add()
+    {
+        $indra = $this->mahasiswa_model;
+        $validation = $this->form_validation;
+        $validation->set_rules($indra->rules());
+        //$this->load->view("menu");
+
+        if ($validation->run()) {
+            $indra->save();
+            $this->session->set_flashdata('success', 'Berhasil disimpan');
+            //$buku->getAll();
+            //$this->load->view("daftar");
+        } else $this->session->set_flashdata('success', 'Gagal disimpan');
+
+        $this->load->view("new_form");
+    }
+
+    public function delete($id_indra = null)
+    {
+        if (!isset($id_indra)) show_404();
+
+        if ($this->mahasiswa_model->delete($id_indra)) {
+            redirect(site_url('user/table'));
+        }
+    }
+
 }
