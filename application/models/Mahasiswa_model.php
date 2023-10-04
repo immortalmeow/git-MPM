@@ -41,3 +41,13 @@ class Mahasiswa_model extends CI_Model
             ],
         ];
     }
+
+	public function getAll()
+    {
+        return $this->db->get($this->_table)->result();
+    }
+
+   	public function getById($id_indra)
+    {
+        return $this->db->get_where($this->_table, ["id_indra" => $id_indra])->row();
+    }
