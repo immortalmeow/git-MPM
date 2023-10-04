@@ -34,6 +34,25 @@ class User extends CI_Controller
 
     }
 
+    public function edit($id_indra = null)
+    {
+        if (!isset($id_indra)) redirect('indra');
+
+        $indra = $this->mahasiswa_model;
+        $validation = $this->form_validation;
+        $validation->set_rules($indra->rules());
+
+        if ($validation->run()) {
+            $indra->update();
+            $this->session->set_flashdata('success', 'Berhasil disimpan');
+        }
+
+        $data["indra"] = $indra->getById($id_indra);
+        if (!$data["indra"]) show_404();
+
+        $this->load->view("edit_form", $data);
+    }
+
 
     public function cari()
     {
