@@ -12,14 +12,14 @@
       <td>Husain Abidin Widayat</td>
       <td>21060120130055</td>
       <td>
-        <a href="https://github.com/immortalmeow"><img src="https://i.ibb.co/njGCgxr/Whats-App-Image-2023-09-14-at-16-16-37.jpg" width="130" height="150"></a>
+        <a href="https://github.com/immortalmeow"><img src="https://img.shields.io/badge/github-121013?style=for-the-badge&logo=github&logoColor=white"></a>
       </td>
     </tr>
     <tr>
       <td>Muhammad Indra Septiawan</td>
       <td>21060120130139</td>
     <td>
-        <a href="https://github.com/mindraseptiawan"><img src="https://avatars.githubusercontent.com/u/118505251?s=400&u=bcc56cb2227cfb7398df8ff8cce005605d620aec&v=4" width="130" height="150"></a>
+        <a href="https://github.com/mindraseptiawan"><img src="https://img.shields.io/badge/github-121013?style=for-the-badge&logo=github&logoColor=white"></a>
       </td>
     </tr>
 		<tr>
